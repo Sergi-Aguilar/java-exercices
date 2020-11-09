@@ -2,17 +2,22 @@ package S;
 
 import java.util.Scanner;
 
-public class Calculator {
-    public Calculator(){
+    public class Droid{
+        String name;
+        int batterylevel = 100;
 
-    }
-    public int add(int a,int b){
-        System.out.println("The sume is ");
-        return a+b;
+        public  Droid(String nameDroid){
+            name = nameDroid;
 
-    }
-    public static void main(String[] args) {
+        }
+        public String toString(){
+            return "The name of the droid is "+name;
+        }
+        public static void main(String[] args) {
+            S.Droid codey = new S.Droid("Codey");
+            System.out.println(codey);
+        }
 
-    }
 }
+
 

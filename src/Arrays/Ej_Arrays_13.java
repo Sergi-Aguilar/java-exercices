@@ -1,5 +1,7 @@
 package Arrays;
 
+import java.util.Arrays;
+
 public class Ej_Arrays_13 {
     public static void main(String[] args) {
         int[] array = new int[3];
