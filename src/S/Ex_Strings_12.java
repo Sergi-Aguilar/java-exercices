@@ -11,19 +11,16 @@ public class Ex_Strings_12 {
         int derecha = letter.length()-1;
         boolean polindroma = true;
         //take white spaces
-        letter.replace(" ","");
+       letter = letter.replace(" ","");
         //take ","
-        letter.replace(",","");
+       letter= letter.replace(",","");
         //letter 1 and 2 to lower casse
-        letter.toLowerCase();
-        while(izquierda<derecha){
-            if (letter.charAt(izquierda)==letter.charAt(derecha)){
-                izquierda++;
-                derecha--;
+       letter = letter.toLowerCase();
+        for (int i = 0,k=letter.length()-1; i <letter.length() ; i++,k--) {
+            if(letter.charAt(i)!=letter.charAt(k)){
+                polindroma=false;
             }
-            else{
-                break;
-            }
+
         }
 
         if(polindroma){

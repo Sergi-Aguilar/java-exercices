@@ -19,5 +19,8 @@ public class DNA {
         if (add%3==0){
             System.out.println("It's a protein!");
         }
+        else{
+            System.out.println("Not's a protein");
+        }
     }
 }
