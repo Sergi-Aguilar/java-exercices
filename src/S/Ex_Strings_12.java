@@ -7,8 +7,6 @@ public class Ex_Strings_12 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Entra la frase o paraula");
         String letter = sc.nextLine();
-        int izquierda = 0;
-        int derecha = letter.length()-1;
         boolean polindroma = true;
         //take white spaces
        letter = letter.replace(" ","");

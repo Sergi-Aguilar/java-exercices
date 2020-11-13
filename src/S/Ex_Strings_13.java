@@ -1,6 +1,6 @@
 package S;
 
-import java.util.Random;
+
 import java.util.Scanner;
 
 public class Ex_Strings_13 {
@@ -16,5 +16,6 @@ public class Ex_Strings_13 {
         letter2.toLowerCase();
         int randoms = (int)(Math.random()*9);
         System.out.println(letter2+randoms);
+
     }
 }
