@@ -69,6 +69,7 @@ public class ex_metodes_7 {
         return false;
     }
 
+
     public static int diaMasFrioAno(int[][]ano){
         int diaMasFrioTemperatura=41;
         int diaMasFrio=0;
